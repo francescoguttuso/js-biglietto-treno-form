@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 100vh;
+    margin:20px;
+    padding: 20px;
+}
+
+h1{
+    margin-bottom:20px;
+}
+
+h2{
+    margin-bottom:20px;
+}
+
+.neweta{
+    margin-bottom: 20px;
+}
+
+button{
+    border-radius: 10px;
+    padding:20px 20px;
+    background-color: brown;
+}

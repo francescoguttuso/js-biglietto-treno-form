@@ -12,11 +12,15 @@
         <H1>Biglietto del Treno</H1>
         <h2>Calcola il costo del tuo biglietto</h2>
    <form action="Biglietto"></form>
-    <label for="Chilometri">Chilometri</label>
-    <input type="number" id="km" name="km" required>
+    <div class="chilom"> 
+        <label for="Chilometri">Chilometri</label>
+        <input type="number" id="km" name="km" placeholder="Km" required>
+    </div>
    
-    <label for="età">Età Passeggero</label>
-    <input type="number" id="eta" name="età" required>
+    <div class="neweta">
+        <label for="età">Età Passeggero</label>
+        <input type="number" id="eta" name="età" placeholder="età" required>
+    </div>
     <div>
         <button type="submit">Calcola Costo</button>
     </div>
