@@ -1,40 +1,41 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <script src="script.js" defer></script>
     <title>Biglietto Treno</title>
-</head>
-<body>
+  </head>
+  <body>
     <header>
-        <img src="img/—Pngtree—the old green electric train_10335058.png" alt="treno">
+      <img
+        src="img/—Pngtree—the old green electric train_10335058.png"
+        alt="treno"
+      />
     </header>
     <div class="container">
-        <H1>Biglietto del Treno</H1>
-        <h2>Calcola il costo del tuo biglietto</h2>
-   <form action="Biglietto">
-    <div class="chilom"> 
-        <label for="Chilometri">Chilometri</label>
-        <input type="number" id="km" name="km" placeholder="Km" required>
-    </div>
-   
-    <div class="neweta">
-        <label for="età">Età Passeggero</label>
-        <input type="number" id="eta" name="età" placeholder="età" required>
-    </div>
-    <div>
-        <button type="submit">Calcola Costo</button>
-    </div>
-</form>
+      <h1>Biglietto del Treno</h1>
+      <h2>Calcola il costo del tuo biglietto</h2>
+      <form action="Biglietto">
+        <div class="chilom">
+          <label for="Chilometri">Chilometri</label>
+          <input type="number" id="km" name="km" placeholder="Km" required />
+        </div>
 
-     <div id="km-inseriti">Chilometri dichiarati: 0 km</div>
+        <div class="neweta">
+          <label for="età">Età Passeggero</label>
+          <input type="number" id="eta" name="età" placeholder="età" required />
+        </div>
+        <div>
+          <button type="submit">Calcola Costo</button>
+        </div>
+      </form>
+      <div class="risultati">
+        <div id="km-inseriti">Chilometri dichiarati: 0 km</div>
         <div id="eta-inserita">Età dichiarata: 0 anni</div>
         <div id="prezzo-biglietto">Prezzo totale del Biglietto: 0,00€</div>
-
-
+      </div>
     </div>
-    
-</body>
+  </body>
 </html>

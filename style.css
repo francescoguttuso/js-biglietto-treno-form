@@ -5,32 +5,69 @@
 }
 
 .container {
-    max-width: 100vh;
+    max-width: 770px;
     margin:20px;
     padding: 20px;
+}
+
+form{
+    display:flex;
+    flex-direction: row;
 }
 
 h1 {
     font-family: Sigmar;
     color: rgb(1, 1, 1);
     text-transform: uppercase;
-    margin-bottom:20px;
+    margin-bottom:14px;
+    text-align: center;
+    font-size: 60px;
 }
 
 h2 {
     font-family: Sigmar;
     color: rgb(10, 10, 10);
     text-transform: uppercase;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
+    text-align: center;
 }
 
-.neweta{
-    margin-bottom: 20px;
+div{
+    font-size: 20px;
 }
 
+input{
+    font-size: 20px;
+}
+
+button{
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 19px;
+}
 
 
 img{
-    width: 700px;
+    width: 770px;
     margin-left: 19px;
+}
+
+#km-inseriti{
+    font-size: 30px;
+    text-align: center;
+    margin-top:50px;
+}
+
+#eta-inserita{
+    font-size: 30px;
+    text-align: center;
+}
+
+#prezzo-biglietto{
+    font-size: 30px;
+    text-align: center;
+}
+
+.risultati{
+    margin-top: 20px;
 }
