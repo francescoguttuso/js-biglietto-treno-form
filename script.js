@@ -24,6 +24,7 @@ if (etaUtente < 18) {
 console.log(prezzoBiglietto);
 
 
+
 kmInseriti.textContent = `Chilometri dichiarati: ${kmUtente} km`;
 etaInserita.textContent = `Età dichiarata: ${etaUtente} anni`;
 prezzoDelBiglietto.textContent = `Prezzo totale del Biglietto: ${prezzoBiglietto.toFixed(2)}€`;
