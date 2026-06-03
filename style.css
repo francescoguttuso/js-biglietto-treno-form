@@ -1,120 +1,121 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-   
-    font-family: Arial, sans-serif; 
-    background-color: #f4f7f4;    
-    padding: 40px 20px;
+  font-family: Arial, sans-serif;
+  background-color: #f4f7f4;
+  padding: 40px 20px;
 }
 
 .container {
-    max-width: 770px;
-    min-width: 576px;
-    margin: 0 auto;       
-    padding: 30px;
-    background-color: white;
-    border-radius: 12px;   
-    box-shadow: 0 4px 15px rgba(0,0,0,0.05);
+  max-width: 770px;
+  min-width: 576px;
+  margin: 0 auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
 }
 
 form {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: flex-end; 
-    gap: 20px;            
-    margin-bottom: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  gap: 20px;
+  margin-bottom: 40px;
 }
 
-.chilom, .neweta {
-    display: flex;
-    flex-direction: column; 
-    gap: 8px;               
-    flex: 1;                
+.chilom,
+.neweta {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  flex: 1;
 }
 
 h1 {
-    color: rgb(22, 110, 60);
-    text-transform: uppercase;
-    margin-bottom: 14px;
-    text-align: center;
-    font-size: 40px;
+  color: rgb(22, 110, 60);
+  text-transform: uppercase;
+  margin-bottom: 14px;
+  text-align: center;
+  font-size: 40px;
 }
 
 h2 {
-   color: rgb(22, 110, 60);
-    text-transform: uppercase;
-    margin-bottom: 40px;
-    text-align: center;
-    font-size: 22px;
+  color: rgb(22, 110, 60);
+  text-transform: uppercase;
+  margin-bottom: 40px;
+  text-align: center;
+  font-size: 22px;
 }
 
-div{
-    font-size: 20px;
+div {
+  font-size: 20px;
 }
 
 input {
-    width: 100%;
-    font-size: 20px;
-    padding: 10px;
-    border: 1px solid rgb(185, 202, 182);
-    border-radius: 6px;
-    background-color: rgb(185, 202, 182);
-    color: rgb(22, 110, 60);
+  width: 100%;
+  font-size: 20px;
+  padding: 10px;
+  border: 1px solid rgb(185, 202, 182);
+  border-radius: 6px;
+  background-color: rgb(185, 202, 182);
+  color: rgb(22, 110, 60);
 }
 
 label {
-    color: rgb(22, 110, 60);
-    font-weight: bold;
+  color: rgb(22, 110, 60);
+  font-weight: bold;
 }
 
 button {
-    padding: 12px 20px;
-    font-size: 20px;
-    font-weight: bold;
-    border: none;
-    border-radius: 19px;
-    background-color: rgb(22, 110, 60); 
-    color: white;                      
-    cursor: pointer;
-    transition: background-color 0.2s ease;
+  padding: 12px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  border: none;
+  border-radius: 19px;
+  background-color: rgb(22, 110, 60);
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
 }
 
 button:hover {
-    background-color: rgb(15, 80, 43);
+  background-color: rgb(15, 80, 43);
 }
 
-
-img{
-    display: block;
-    max-width: 100%;       
-    margin: 0 auto 20px auto;
+img {
+  display: block;
+  max-width: 100%;
+  margin: 0 auto 20px auto;
 }
 
-#km-inseriti, #eta-inserita, #prezzo-biglietto {
-    font-size: 24px;       
-    text-align: center;
-    color: rgb(22, 110, 60);
-    margin-bottom: 10px;
+#km-inseriti,
+#eta-inserita,
+#prezzo-biglietto {
+  font-size: 24px;
+  text-align: center;
+  color: rgb(22, 110, 60);
+  margin-bottom: 10px;
 }
 
 #prezzo-biglietto {
-    font-weight: bold;     
-    font-size: 28px;
-    margin-top: 15px;
+  font-weight: bold;
+  font-size: 28px;
+  margin-top: 15px;
 }
 
 @media (max-width: 600px) {
-    form {
-        flex-direction: column; 
-        align-items: stretch; 
-    }
+  form {
+    flex-direction: column;
+    align-items: stretch;
+  }
 
-    button {
-        width: 100%; 
-    }
+  button {
+    width: 100%;
+  }
 }
